@@ -1,7 +1,10 @@
-// todo: import a helper library from flutter
+import 'package:flutter/material.dart';
 
-// todo: define a `main` function to run when the app starts
-
-// todo: create a new `text widget`
+void main() {
+  var app = MaterialApp(
+    home: Text('Hello World')
+  );
 
 // todo: display `text widget`
+
+}
