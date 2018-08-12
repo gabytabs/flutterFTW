@@ -5,7 +5,12 @@ void main() {
     home: Scaffold(
       appBar: AppBar(
         title: Text('Lets see some images!')
-      )
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          print('Hey there');
+        }
+      ),
     )
   );
 
