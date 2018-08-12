@@ -5,6 +5,5 @@ void main() {
     home: Text('Hello World')
   );
 
-// todo: display `text widget`
-
+  runApp(app);
 }
